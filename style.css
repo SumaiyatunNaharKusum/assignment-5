@@ -1,0 +1,72 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #7758ff;
+}
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#userInput {
+  padding: 0.3rem;
+  height: 40px;
+  width: 100%;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+}
+#searchBtn {
+  display: inline-block;
+  height: 50px;
+  width: 30%;
+  background-color: #b6abff;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+#mealsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 15px;
+}
+img {
+  width: 100%;
+}
+.mealItem {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+#mealDetails {
+  background-color: #a167ff;
+  font-size: 20px;
+  padding: 20px;
+  width: 25%;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px #323232bf;
+  color: white;
+  overflow: hidden;
+}
